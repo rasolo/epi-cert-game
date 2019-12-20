@@ -278,14 +278,14 @@ $(document).ready(function() {
 	}
 
 	function isNextClicked() {
-		if(event.keyCode == 78) {
+		if(event.keyCode == 39) {
 			return true;
 		}
 		return false;
 	}
 
 	function isBackClicked(event) {
-		if(event.keyCode == 66) {
+		if(event.keyCode == 37) {
 			return true;
 		}
 		return false;
@@ -337,7 +337,8 @@ $(document).ready(function() {
 				index--;
 			}
 		}
-
+		
+		isAnswerClicked(e);
 		changeQuestion(index);
 		changeStatusText(index);
 	});
@@ -364,11 +365,12 @@ $(document).ready(function() {
 		answer.toggleClass('visible');
 	})
 
-	$(document).keypress(function(e) {
-		if(e.keyCode === 97 && !$('.question-counter').hasClass('form-visible')) {
+	function isAnswerClicked(e) {
+		if(e.keyCode === 38 && !$('.question-counter').hasClass('form-visible')) {
 			answer.toggleClass('visible');
 		}
-	})
+
+	}
 
 	$('.question-counter').on('click', function() {
 		toggleArrPosForm();
