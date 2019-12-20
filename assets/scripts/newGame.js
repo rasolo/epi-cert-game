@@ -132,9 +132,9 @@ $(document).ready(function() {
 	];
 
 	var answers = [
-	"MSQL Server 2008, 2008 R2, 2012, 2014",
-	"MWS 2012, 2012 R2",
-	"IE 10, IE 11, Firefox (latest), Chrome (latest)",
+	"MSQL Server 2012, 2014, 2016, 2017",
+	"MWS 2012, 2012 R2, 2016, 2019",
+	"IE 11, Firefox (latest), Chrome (latest)",
 	"Redirect (no redirects that bypasses episerver license restrictions)",
 	"License.config, place it in the root folder of the web project ",
 	"Parents > PageName (PageUrl or GetUrl methods)",
