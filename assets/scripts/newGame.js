@@ -198,7 +198,7 @@ $(document).ready(function() {
 	"By using the log4net namespace when creating a logger class",
 	"By using the @Html.Translate()",
 	"By using language xml files <contenttypes> ",
-	"Same as above but <groups>",
+	"By using language xml files <contenttypes> <groups>",
 	"Override the setDefaultValues method",
 	"ContentData class (base class for classes that holds content)",
 	"CreateWritableClone() is needed to edit and update an object because they are read-only (Improved performance?)",
