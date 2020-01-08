@@ -193,7 +193,7 @@ $(document).ready(function() {
 	"The built-in event provider is based on Microsoft Windows Communication Foundation (WCF)",
 	"(Epi 11+) Add a new initialization module with a dependency on the default one, add settings in ConfigureContainer(ServiceConfigurationContext context) method",
 	"Install the Spellchecker add-on for TinyMCE",
-	"Pass iframe parameter in the TinyMCE init",
+	"Epi 10 and lower: Pass iframe parameter in the TinyMCE init. Epi 11 and above: Add a new initialization module with a dependency on the default one, add settings in ConfigureContainer(ServiceConfigurationContext context) method. context.Services.Configure<TinyMceConfiguration>(config => config.Default().AddSetting('extended_valid_elements', 'iframe[*]')",
 	"Debug is enabled by default in EPiServerLog.config",
 	"By using the log4net namespace when creating a logger class",
 	"By using the @Html.Translate()",
