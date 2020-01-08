@@ -191,7 +191,7 @@ $(document).ready(function() {
 	"One major difference when using EPiServer's own cache classes is that cache changes are propagated to load-balanced web servers as well. ",
 	"The EPiServer Events System is used to distribute events with an EPiServer CMS site and between sites in an enterprise and/or load balanced scenario.",
 	"The built-in event provider is based on Microsoft Windows Communication Foundation (WCF)",
-	"Web.config > <applicationSettings> uiEditorCssPaths",
+	"(Epi 11+) Add a new initialization module with a dependency on the default one, add settings in ConfigureContainer(ServiceConfigurationContext context) method",
 	"Install the Spellchecker add-on for TinyMCE",
 	"Pass iframe parameter in the TinyMCE init",
 	"Debug is enabled by default in EPiServerLog.config",
