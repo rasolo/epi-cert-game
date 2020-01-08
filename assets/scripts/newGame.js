@@ -190,7 +190,7 @@ $(document).ready(function() {
 	"The location of the App_Data folder, defined in the web.config",
 	"One major difference when using EPiServer's own cache classes is that cache changes are propagated to load-balanced web servers as well. ",
 	"The EPiServer Events System is used to distribute events with an EPiServer CMS site and between sites in an enterprise and/or load balanced scenario.",
-	"Event API ???",
+	"The built-in event provider is based on Microsoft Windows Communication Foundation (WCF)",
 	"Web.config > <applicationSettings> uiEditorCssPaths",
 	"Install the Spellchecker add-on for TinyMCE",
 	"Pass iframe parameter in the TinyMCE init",
