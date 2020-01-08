@@ -171,7 +171,7 @@ $(document).ready(function() {
 	"Chosing who has access to what, Administrators access everything. WebAdmins can access the admin mode and edit mode. WebEditors can access the edit mode only.",
 	"Admin > Config > Permissions for Functions. Used to provide certain people with information for development, bug fixing or special editing",
 	"No, but you can assign them to a tab with certain access rights.",
-	"It runs with a anonymous user profile. Link validation, empty trash, subscriptions.",
+	"It runs with a anonymous user profile. Archive Function, Automatic Emptying of Trash, Change Log Auto Truncate, Clear Thumbnail Properties, Fetch data from Marketing Connectors, Link Validation, Marketing Test Monitor, Mirroring Service, Monitored Tasks Auto Truncate, Notification Dispatcher, Notification Message Truncate, Publish Delayed Content Versions, Remove Abandoned BLOBs, Remove Permanent Editing, Remove Unrelated Content Assets, Subscription, Trim Content Versions",
 	"Admin > Config > Mirroring",
 	"Remirror the channel",
 	"EPiServer has a custom error message. Email notifications are available after enabling them in web.config (and setting up a smtp server?)",
