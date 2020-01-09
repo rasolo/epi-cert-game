@@ -219,7 +219,7 @@ $(document).ready(function() {
 	"The major advantage of this is that they are executed before Application_Start, which allows the application to be fully initialized and usable from within Application_Start",
 	"The [MenuItem] attribute, the IMenuProvider interface and by adding <navigation> to the <episerver.shell> in web.config",
 	"By using the [EPiServer.PlugIn.ScheduledJob] attribute on your class",
-	"Om jobb k?rs automatiskt ?r HttpContect.Current null. Vid manuelt med den inloggadesr?ttigheter",
+	"If the job is ran automatically the HttpContext.Current is null and the Current user is null. If the job is ran manually HttpContext.Current is still null but the user is the logged in user. PrincipalInfo.CurrentPrincipal is never null but will have many null props when job is ran automatically.",
 	"The normal way, with language files",
 	"By overriding the default plugin initzialiser",
 	"[PageDefinitionTypePlugIn(DisplayName = YourPropertyName)]",
